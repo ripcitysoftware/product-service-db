@@ -28,7 +28,8 @@ services:
       - product-db
     volumes:
       # the mount point here `/liquibase`, needs to match the path to the LIQUIBASE_CHANGELOG file above
-      - ./:/liquibase
+      # - ./src/main/liquibase:/liquibase
+      - ${LIQUIBASE_PATH}:/liquibase
     command:
       - bash
       - -c
