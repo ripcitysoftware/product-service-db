@@ -11,9 +11,9 @@
     <changeSet author="cmaki" id="db.initial-data" context="" logicalFilePath="db.initial-data">
         <sqlFile path="sql/db.initial-data.sql" relativeToChangelogFile="true" stripComments="false"/>
     </changeSet>
-    <changeSet author="cmaki" id="product-update" context="" logicalFilePath="product-update">
-        <sqlFile path="sql/product-update.sql" relativeToChangelogFile="true" stripComments="false"/>
-    </changeSet>
+<!--    <changeSet author="cmaki" id="product-update" context="" logicalFilePath="product-update">-->
+<!--        <sqlFile path="sql/product-update.sql" relativeToChangelogFile="true" stripComments="false"/>-->
+<!--    </changeSet>-->
 <!--    <changeSet author="cmaki" id="billing" context="" logicalFilePath="billing">-->
 <!--        <sqlFile path="sql/billing.sql" relativeToChangelogFile="true" stripComments="false"/>-->
 <!--    </changeSet>-->
